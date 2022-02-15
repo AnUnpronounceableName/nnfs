@@ -40,5 +40,5 @@ def ex_2():
     
     print(outputs)
 
-print(ex_1)
-print(ex_2)
+print(ex_1())
+print(ex_2())
