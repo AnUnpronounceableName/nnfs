@@ -69,6 +69,17 @@ def ex_3():
 
     print(layer_outputs)
 
+def ex_4():
+    import numpy as np
+    inputs = [1.0, 2.0, 3.0, 2.5]
+    weights = [0.2, 0.8, -0.5, 1.0]
+    bias = 0.2
+
+    output = np.dot(inputs, weights) + bias
+
+    print(output)
+
 ex_1()
 ex_2()
 ex_3()
+ex_4()
