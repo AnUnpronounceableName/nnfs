@@ -20,6 +20,6 @@ def ex_3_p60():
     layer1_outputs = np.dot(inputs, np.array(weights).T) + biases
     layer2_outputs = np.dot(layer1_outputs, np.array(weights2).T) + biases2
 
-    prints(layer2_outputs)
+    print(layer2_outputs)
 
 ex_3_p60()
